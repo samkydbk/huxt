@@ -1,0 +1,2 @@
+# huxt
+nuxt
