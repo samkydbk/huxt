@@ -1,45 +1,10 @@
-# iBlog
-基于 Node.js 的开源个人博客系统，现代化的 UI 和用户体验。支持桌面端和移动端访问，支持深色模式，支持 [Docker](https://www.docker.com/) 部署。  
-**不仅仅是博客，更是 Demo**，是适合新人入门学习的完整项目。
 
-## 目录
-- [界面预览](#界面预览)
-- [在线实例](#在线实例)
-- [分支说明](#分支说明)
-- [技术构成](#技术构成)
-- [快速开始](#快速开始)
-  * [准备条件](#准备条件)
-  * [安装依赖](#安装依赖)
-  * [启动站点](#启动站点)
-  * [Debug](#debug)
-- [系统设置](#系统设置)
-- [线上部署](#线上部署)
-  * [使用PM2](#使用pm2)
-  * [使用noginx](#使用noginx)
-- [Docker](#docker)
-  * [安装Docker](#安装docker)
-  * [制作镜像](#制作镜像)
-  * [创建容器](#创建容器)
-  * [容器管理](#容器管理)
-- [更新日志](#更新日志)
-- [TODO](#todo)
-- [许可协议](#许可协议)
-
-## 界面预览
-* 博客首页
-![首页](./preview_1.png)
-* 后台管理
-![后台](./preview_2.png)
-* 移动端
-![移动端](./preview_3.png)
 
 ## 在线实例
 我的博客 [https://skysun.name/](https://skysun.name/)
 
 ## 分支说明
 * 当前分支 (v2.0.0) 基于 [TypeScript](https://www.typescriptlang.org/) + [NuxtJS](https://nuxtjs.org/)
-* [v1.0.0](https://github.com/eshengsky/iBlog/tree/v1.0.0) 分支基于 JavaScript + [ExpressJS](https://expressjs.com/)
-* [iBlog.Net](https://github.com/eshengsky/iBlog.Net) 基于 C# + [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)
 
 
 ## 技术构成
@@ -170,30 +135,3 @@ $ yarn run dockerRun
 ## 更新日志
 
 请直接查看 [Commit](https://github.com/eshengsky/iBlog/commits/master) 记录。
-
-## [TODO](./TODO.md)
-
-项目的后续更新计划，欢迎提交 [PR](https://github.com/eshengsky/iBlog/pulls)。
-
-## 许可协议
-MIT License
-
-Copyright (c) 2020 Sky.Sun 孙正华
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
