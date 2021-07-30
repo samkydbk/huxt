@@ -2,15 +2,18 @@ import Vue from 'vue'
 import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } from 'ufo'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from './components/nuxt-error.vue'
+import NuxtError from '..\\layouts\\error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '..\\node_modules\\element-ui\\lib\\theme-chalk\\index.css'
 
-import _6f6c098b from '..\\layouts\\default.vue'
+import _77068119 from '..\\layouts\\admin.vue'
+import _2d21d098 from '..\\layouts\\blog.vue'
+import _2d2a8cc1 from '..\\layouts\\user.vue'
+import _6f6c098b from './layouts/default.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_admin": sanitizeComponent(_77068119),"_blog": sanitizeComponent(_2d21d098),"_user": sanitizeComponent(_2d2a8cc1),"_default": sanitizeComponent(_6f6c098b) }
 
 export default {
   render (h, props) {

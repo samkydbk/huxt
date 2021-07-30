@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "D:\\\\phpstudy_pro\\\\WWW\\\\nuxt-blog\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_f8097ab4"
+    "chunkName": "pages/index"
   }
 ]

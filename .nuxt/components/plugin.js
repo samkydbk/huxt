@@ -2,6 +2,8 @@ import Vue from 'vue'
 import { wrapFunctional } from './utils'
 
 const components = {
+  Footer: () => import('../..\\components\\footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c)),
+  Header: () => import('../..\\components\\header.vue' /* webpackChunkName: "components/header" */).then(c => wrapFunctional(c.default || c)),
   Logo: () => import('../..\\components\\Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c))
 }
 
